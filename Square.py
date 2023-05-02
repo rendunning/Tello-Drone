@@ -45,8 +45,8 @@ recvThread.start()
 
 
 print("\nLauren Dunning")
-print("Program Name: Square")
-print("Date: 4.28.2023")
+print("Program Name: Competition")
+print("Date: 5.02.2023")
 print("\n****CHECK YOUR TELLO WIFI ADDRESS****")
 print("\n****CHECK SURROUNDING AREA BEFORE FLIGHT****")
 ready = input('\nAre you ready to take flight: ')
