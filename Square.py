@@ -57,11 +57,12 @@ try:
         print("\nStarting Drone!\n")
 
         sendmsg('command', 0)
-        sendmsg('takeoff')
+        sendmsg('takeoff', 8)
 
-        for i in range(0,4):
-            sendmsg('forward 70')
-            sendmsg('cw 90')
+        for square in range(4):
+            sendmsg('forward 100', 8)
+            sendmsg('cw 90', 8)
+
         sendmsg('land')
 
         print('\nGreat Flight.')
