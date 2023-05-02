@@ -59,9 +59,6 @@ try:
         sendmsg('command', 0)
         sendmsg('takeoff')
 
-        for i in range(0,4):
-            sendmsg('forward 70')
-            sendmsg('cw 90')
         sendmsg('land')
 
         print('\nGreat Flight.')
